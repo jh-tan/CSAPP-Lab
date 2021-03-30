@@ -49,10 +49,12 @@ More instruction about GDB can be read from [Summary of GDB commands](http://csa
 1.  Same as phase 3, we first x/s on $rsi , we can see the result of " %d %d ", we can certainly know that the answer is 2 integer number and it check if we enter 2 integers, if not then explode.
 2. Then, it check if the first integer is less than 15, if greater than explode.
 3. After that, it will go into some recursive function.
+
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fAKDtnjs7tbLrl_KbW5-G2KV3WZ9d49M2Gy-gsqG4DUOG_gQ9_aeOHZ1phGQwq2BNHiI2_sVfptDc3gsaohSP1-_AgqCrtcO4F_kUWXhdVBtz7-1xk6YIv1LmOTh-pabgIvbR1S3HgOZcXkSDK5_c=w576-h395-no?authuser=2)
-4. The recursive function will not explained detail here, but basically the return value after going through the function must be equal to 0.
-5. For the second integer, we can see that at phase_4 <**+69**>, it is comparing with 0. Hence, we can tell that the second integer must be 0.
-6. There are few answer to this question as well, namely 0 0 、1 0、3 0、7 0.
+
+5. The recursive function will not explained detail here, but basically the return value after going through the function must be equal to 0.
+6. For the second integer, we can see that at phase_4 <**+69**>, it is comparing with 0. Hence, we can tell that the second integer must be 0.
+7. There are few answer to this question as well, namely 0 0 、1 0、3 0、7 0.
 
 ## Phase 5
 ![](https://lh3.googleusercontent.com/pw/ACtC-3e35FSHdSdSGIIVhg3dSmSeFkFmW2tJJtAefht9ztlkm4dNkphuAyfQ6-KNaq5LVDkhC5gKSkc7iSWwMHy42TNAawygXR5odZGAWtx5-P9eXLXqJaB-zcBJvg2Tce3cpiB6GtfxoYt4h0utPlhIDuk=w634-h663-no?authuser=2)
@@ -113,4 +115,4 @@ IF IN DESCENDING ORDER, THEN DEFUSE ELSE EXPLODE
 5. If current node is greater than our input ( our input is lesser than the current node), go to the left node
 - after return from left node, eax= eax+eax (eax *2)
 6. If the input value does not equal to any node , then return value will be 0xfffff..., than answer will definitely wrong
- 
+
