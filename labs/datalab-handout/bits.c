@@ -191,7 +191,7 @@ int tmin(void) {
 int isTmax(int x) {
     /*
      *Explanation
-      1. Tmax = 0111 1111 ... 1111, we can just left shift Tmin << 31 to compare, but shifting is forbid in here.
+      1. Tmax = 0111 1111 ... 1111, we can just negate Tmin to compare, but shifting is forbid in here.
       2. So, how we done here is by +1 to the x, +x, and negate it.
       3. Why? Is because if x is Tmax, x + 1 will become Tmin, and Tmin + Tmax = -1 (1111 1111 ... 1111)
          , and negate it will become 0.
