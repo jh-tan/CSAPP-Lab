@@ -15,6 +15,8 @@ This lab is meant to reinforce the understanding of signal handling, through mak
 
 <h3> Signal </h3>
 
+![image](https://user-images.githubusercontent.com/68408911/120140877-07230b80-c20e-11eb-83e0-2cebff2f3974.png)
+
 - Pretty much like what the word imply, signal is a small message that notifies a process that an event of some type has occured.
 - The figure above show some signal corresponding to their event and the default action to the signal.
 - All default action associated with a signal can be modified except SIGSTOP and SIGKILL.
