@@ -6,6 +6,6 @@ Personal notes , solution and progress for the lab.
  - [x] [Attack Lab](https://github.com/jh-tan/CSAPP-Lab/tree/main/labs/attack-lab)
  - [ ] Architecture Lab
  - [x] [Cache Lab](https://github.com/jh-tan/CSAPP-Lab/tree/main/labs/cachelab-handout) <- Completed part one only.
- - [ ] Shell Lab
+ - [x] [Shell Lab](https://github.com/jh-tan/CSAPP-Lab/tree/main/labs/shlab-handout)
  - [ ] Malloc Lab
  - [ ] Proxy Lab
